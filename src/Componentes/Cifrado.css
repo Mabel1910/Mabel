@@ -1,0 +1,59 @@
+/* Cipher.css */
+.cipher-container {
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #682cc3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #b07ee9;
+  }
+  
+  .result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .result-item {
+    background-color: #cd8be7;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    text-align: left;
+  }
+  
+  h3 {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
